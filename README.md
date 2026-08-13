@@ -6,7 +6,7 @@ we need to make some great program based on llm because of fun
 so we decided to make auto investment program handled by llm
 
 
-## how works
+## how works(architecture)
 some other ppl will fill this
 
 ## photos for otaku(s)
