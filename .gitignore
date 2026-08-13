@@ -1,6 +1,9 @@
 .idea/
 .vscode/
 .opencode/
+cmake-*/
+.vs/
+build/
 
 .DS_Store
 .AppleDouble
