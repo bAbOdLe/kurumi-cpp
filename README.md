@@ -9,6 +9,14 @@ so we decided to make auto investment program handled by llm
 ## how works(architecture)
 some other ppl will fill this
 
+## todo
+[o] naver news api test
+[o] discuss how to parse naver news api response
+[o] make consensus to integrate discord bot into the kurumi
+[x] discord bot api test
+[x] discuss how to request GET to discord
+[x] discuss how to parse response from discord
+
 ## photos for otaku(s)
 <img width="1239" height="1375" alt="kurumi" src="https://github.com/user-attachments/assets/b7d867bd-5d03-40dc-83e1-2ccbc22b1ba4" />
 <img width="1311" height="603" alt="keiWhat" src="https://github.com/user-attachments/assets/0c127b55-adac-4584-b9ee-e04ee8d3f55b" />
