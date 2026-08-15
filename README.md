@@ -14,8 +14,8 @@ some other ppl will fill this
 - [x] discuss how to parse naver news api response
 - [x] make consensus to integrate discord bot into the kurumi
 - [ ] discord bot api test
-- [ ] discuss how to request GET to discord
-- [ ] discuss how to parse response from discord
+- [ ] make architecture for discord api request
+- [ ] make architecture of discord responce parser and executor
 
 ## photos for otaku(s)
 <img width="1239" height="1375" alt="kurumi" src="https://github.com/user-attachments/assets/b7d867bd-5d03-40dc-83e1-2ccbc22b1ba4" />
