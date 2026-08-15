@@ -16,6 +16,7 @@ some other ppl will fill this
 - [x] discord bot api test
 - [ ] make architecture for discord api request
 - [ ] make architecture of discord responce parser and executor
+- [ ] test toss api
 
 ## photos for otaku(s)
 <img width="1239" height="1375" alt="kurumi" src="https://github.com/user-attachments/assets/b7d867bd-5d03-40dc-83e1-2ccbc22b1ba4" />
