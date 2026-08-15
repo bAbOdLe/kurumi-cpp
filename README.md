@@ -13,7 +13,7 @@ some other ppl will fill this
 - [x] naver news api test
 - [x] discuss how to parse naver news api response
 - [x] make consensus to integrate discord bot into the kurumi
-- [ ] discord bot api test
+- [x] discord bot api test
 - [ ] make architecture for discord api request
 - [ ] make architecture of discord responce parser and executor
 
