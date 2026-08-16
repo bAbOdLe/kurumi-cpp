@@ -9,9 +9,11 @@ target_compile_features(KurumiConfig INTERFACE cxx_std_23)
 target_compile_options(KurumiConfig INTERFACE $<$<CXX_COMPILER_ID:MSVC>:/utf-8>)
 target_link_libraries(KurumiConfig INTERFACE $<$<AND:$<CXX_COMPILER_ID:GNU>,$<PLATFORM_ID:Windows>>:-lstdc++exp>)
 
+include_directories(include)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/extern/httplib)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/extern/nlohmann)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/extern/stdexec)
+
 
 add_executable(test)
 
