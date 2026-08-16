@@ -1,7 +1,7 @@
 #include <nlohmann/json.hpp>
 #include <fstream>
 #include <stdexcept>
-#include "Config.hpp"
+#include "Kurumi/Config.hpp"
 
 namespace kurumi {
 
@@ -10,7 +10,6 @@ namespace kurumi {
 
 
     std::optional<Config> Config::load(std::filesystem::path config_path) {
-
         try {
             std::ifstream _file{config_path};
 
@@ -27,7 +26,6 @@ namespace kurumi {
     }
 
     bool Config::save(std::filesystem::path config_path, const Config& config) {
-
         std::ofstream _file{config_path};
 
         if (!_file.is_open()) {
@@ -39,7 +37,6 @@ namespace kurumi {
     }
 
     void to_json(nlohmann::json& json, const Config& config) {
-
         json = nlohmann::json {
             {"toss_api_key", config.toss_api_key},
             {"naver_api_key", config.naver_api_key},
@@ -52,7 +49,6 @@ namespace kurumi {
     }
 
     void from_json(const nlohmann::json& json, Config& config) {
-
         json.at("toss_api_key").get_to(config.toss_api_key);
         json.at("naver_api_key").get_to(config.naver_api_key);
         json.at("discord").at("bot_token").get_to(config.discord.bot_token);

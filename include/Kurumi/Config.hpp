@@ -10,7 +10,6 @@
 namespace kurumi {
 
     struct Config {
-
         struct Discord {
             std::string bot_token;
             std::string guild_id;
