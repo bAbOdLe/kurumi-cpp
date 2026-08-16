@@ -1,4 +1,13 @@
+set(KURUMI_HEADER_DIR ${PROJECT_SOURCE_DIR}/include/Kurumi)
+
 target_sources(test
+PUBLIC
+    FILE_SET HEADERS
+    BASE_DIRS
+        ${PROJECT_SOURCE_DIR}/include
+    FILES
+        ${KURUMI_HEADER_DIR}/RingBuffer.hpp
+
 PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
 )
